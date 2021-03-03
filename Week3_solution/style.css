@@ -1,1 +1,116 @@
+body {
+  font-size: 16px;
+  background-color: #F0FFFF;
+}
 
+/** Header **/
+#header-nav {
+    background-color: #AFEEEE;
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+}
+
+#header-nav > div{
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    color: #008B8B;
+    /*font-size 1.2em;*/
+    font-size: 32px;
+    text-align: left;
+    padding-left: 25px;
+    text-shadow: 1px 1px 1px #000080;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #008B8B;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #F0FFF0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #8B0000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+/** End of header **/
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+/** Content **/
+#Chicken {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Chicken > div > h3{
+    text-align: center;
+}
+
+#Beef {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Beef > div > h3{
+    text-align: center;
+}
+
+#Sushi {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Sushi > div > h3{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+#Chicken {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Beef {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Sushi {
+    background-color: #E0FFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
+/** End of content **/
